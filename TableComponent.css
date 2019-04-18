@@ -1,0 +1,50 @@
+table{
+    border-collapse: collapse;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.table-component-container{
+    position: relative;
+}
+/*.table-component-container .table-component-content .table-component{*/
+
+/*}*/
+.table-component-container .table-component-content-scroll{
+    overflow-x: scroll;
+    background-color: #fff;
+}
+.table-component-container .table-component-content .table-component thead tr th,.table-component-container .table-component-content-scroll .table-component thead tr th{
+    color: #999999;
+    font-size: 3.47vw;
+    font-weight: 400;
+    padding: 6px 0;
+}
+.table-component-container .table-component-content .table-component tbody tr td,.table-component-container .table-component-content-scroll .table-component tbody tr td{
+    color: #333333;
+    font-size: 4vw;
+    font-weight: 400;
+    padding: 6px 0;
+}
+.table-component-container .table-component-fixed-left{
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    left: 0;
+    z-index: 20;
+}
+.table-component-container .table-component-fixed-right{
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    right: 0;
+    z-index: 20;
+}
+.table-component-container .expand-icon{
+    width: 2.67vw;
+}
+.table-component-container .expand-row{
+    background-color: #f5f5f5;
+}
+.table-component-container .expand-row td{
+    padding: 15px 2.67vw!important;
+}
